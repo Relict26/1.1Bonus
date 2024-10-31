@@ -5,8 +5,8 @@ public class Main {
 
         int bonus = 0; // бонус
 
-                if (amount > 1000) {
-                        bonus = (amount / 100); // бонусы за каждую полную сотню
+        if (amount > 1000) {
+            bonus = (amount / 100); // бонусы за каждую полную сотню
         }
 
         int finalBalance = balance + amount + bonus; // итоговая сумма на счету
